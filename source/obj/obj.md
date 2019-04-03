@@ -1,1 +1,0 @@
-obj directory for compiling temperature file
