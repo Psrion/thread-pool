@@ -1,1 +1,0 @@
-obj for compiling temperature object file
