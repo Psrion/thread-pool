@@ -1,0 +1,1 @@
+obj directory for compiling output temperature object file

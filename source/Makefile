@@ -5,7 +5,6 @@ INCLUDE = ./include/sql_threads_pool.h
 
 SRC = $(wildcard ./src/*.cpp)
 OBJ = $(patsubst ./src/%.cpp, ./obj/%.o, $(SRC))
-OBJ_DIR = $(PWD)/obj
 LFLAG = -lpthread 
 LDEBUG = -g -Wall
 
@@ -23,6 +22,6 @@ $(OBJ):$(SRC)
 
 clean:
 	@echo 
-	rm -rf $(TARGET) $(OBJ_DIR)/*
+	rm -rf $(TARGET) $(OBJ)
 	@echo
 
