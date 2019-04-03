@@ -5,7 +5,7 @@ INCLUDE = ./include/sql_threads_pool.h
 
 SRC = $(wildcard ./src/*.cpp)
 OBJ = $(patsubst ./src/%.cpp, ./obj/%.o, $(SRC))
-OBJ_DIR = $(PWD)/obj/
+OBJ_DIR = $(PWD)/obj
 LFLAG = -lpthread 
 LDEBUG = -g -Wall
 
